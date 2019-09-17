@@ -1,3 +1,3 @@
 # mock-api
 
-Simple mock an API
+`yarn && yarn dev`
