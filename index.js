@@ -29,7 +29,7 @@ app.post('/register', (req, res) => {
 
   setTimeout(() => {
     return res.status(201).send()
-  }, 2000);
+  }, 1000);
 })
 
 app.post('/auth/token', (req, res) => {
