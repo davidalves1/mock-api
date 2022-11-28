@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node_modules/.bin/nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "yarn nodemon src/index.js",
+    "test": "echo \"Not have tests yet :)\""
   },
   "author": "davidalves1 <alves.david@outlook.com>",
   "license": "MIT",
