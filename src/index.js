@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const helmet = require('helmet')
 
-const hash = require('./hash')
+const hash = require('./services/hash')
 
 const app = express()
 
