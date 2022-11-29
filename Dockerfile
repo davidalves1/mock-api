@@ -5,7 +5,6 @@ WORKDIR /usr/src/app
 COPY package.json ./
 COPY yarn.lock ./
 
-# Install node-modules
 RUN yarn install --frozen-lockfile
 
 COPY src/ ./
