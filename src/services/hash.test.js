@@ -5,7 +5,11 @@ describe('hash', () => {
     expect(hash().length).toBe(40);
   })
 
-  it('should be return a corretct hash called', () => {
+  it('should be return a valid md5 hash called', () => {
+    expect(hash('md5').length).toBe(32);
+  })
+
+  it('should be return a valid sha256 hash', () => {
     expect(hash('sha256').length).toBe(64);
   })
 })
